@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" fx:id="navbar" stylesheets="@../style/navbar.css">
+    <HBox spacing="20" alignment="CENTER" styleClass="navbar">
+        <VBox alignment="CENTER" styleClass="nav-item">
+            <ImageView fx:id="homeIcon" fitWidth="27" fitHeight="27"/>
+            <Label text="Accueil" />
+        </VBox>
+        <VBox alignment="CENTER" styleClass="nav-item">
+            <ImageView fx:id="networkIcon" fitWidth="24" fitHeight="24" />
+            <Label text="Réseau" />
+        </VBox>
+        <VBox alignment="CENTER" styleClass="nav-item">
+            <ImageView fx:id="jobsIcon" fitWidth="24" fitHeight="24" />
+            <Label text="Emplois" />
+        </VBox>
+        <VBox alignment="CENTER" styleClass="nav-item">
+            <ImageView fx:id="messagingIcon" fitWidth="24" fitHeight="24" />
+            <Label text="Messagerie" />
+        </VBox>
+        <VBox alignment="CENTER" styleClass="nav-item">
+            <ImageView fx:id="notificationsIcon" fitWidth="24" fitHeight="24" />
+            <Label text="Notifications" />
+        </VBox>
+        <VBox alignment="CENTER" styleClass="nav-item">
+            <ImageView fx:id="profileIcon" fitWidth="24" fitHeight="24" />
+            <Label text="Vous" />
+        </VBox>
+    </HBox>
+</AnchorPane>

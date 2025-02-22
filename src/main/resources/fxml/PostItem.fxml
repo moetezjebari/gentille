@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.image.*?>
+
+<<<<<<< HEAD
+<HBox xmlns:fx="http://javafx.com/fxml/1" spacing="10" style="-fx-padding: 10; -fx-background-color: #f4f4f4; -fx-border-color: #ccc; -fx-border-radius: 5px;"
+=======
+<HBox xmlns:fx="http://javafx.com/fxml/1" spacing="10" style="-fx-padding: 10; -fx-background-color: #f4f4f4; -fx-border-color: #ccc; -fx-border-radius: 5px; -fx-alignment: center; -fx-max-width: 600;"
+>>>>>>> e4e9b39 (hello)
+fx:controller="org.example.Controller.PostItemController"
+      stylesheets="@../style/App.css">
+
+
+
+    <ImageView fx:id="userAvatar" fitWidth="50" fitHeight="50"/>
+    <VBox spacing="5">
+        <Label fx:id="titleLabel" style="-fx-font-weight: bold; -fx-font-size: 14px;"/>
+        <Label fx:id="contentLabel" wrapText="true"/>
+        <Label fx:id="categoryLabel" style="-fx-text-fill: gray;"/>
+<<<<<<< HEAD
+        <ImageView fx:id="postImage" fitWidth="250" fitHeight="300" visible="false" preserveRatio="true" smooth="true"/>
+=======
+        <ImageView fx:id="postImage" fitWidth="500" fitHeight="300" visible="false" preserveRatio="true" smooth="true"/>
+>>>>>>> e4e9b39 (hello)
+
+
+        <HBox spacing="10">
+            <Button text="commenter" fx:id="commenter" onAction="#toggleCommentInput"    />
+            <Button text="show comments" fx:id="showCommentsButton" onAction="#toggleComments"/>
+        </HBox>
+        <HBox fx:id="commentInputContainer" spacing="10" visible="false">
+<<<<<<< HEAD
+                   <TextArea fx:id="input_comment" prefWidth="300"/>
+                    <Button fx:id="confirmCommentButton" onAction="#handleAddComment">
+=======
+            <TextArea fx:id="input_comment" prefWidth="300" prefHeight="40" wrapText="true" promptText="ajouter un commentaire"/>
+                    <Button fx:id="confirmCommentButton" onAction="#handleAddComment" styleClass="send-button">
+>>>>>>> e4e9b39 (hello)
+                        <graphic>
+                            <ImageView fitHeight="20" fitWidth="20">
+                                <Image url="@../images/p.png"/>
+                            </ImageView>
+                        </graphic>
+                    </Button>
+<<<<<<< HEAD
+                </HBox>
+=======
+        </HBox>
+>>>>>>> e4e9b39 (hello)
+        <!-- Conteneur pour les commentaires -->
+        <VBox fx:id="commentsContainer" spacing="5" visible="false"/>
+
+
+
+    </VBox>
+</HBox>

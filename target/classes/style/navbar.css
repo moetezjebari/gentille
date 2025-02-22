@@ -1,0 +1,39 @@
+.navbar {
+    -fx-background-color: white;
+    -fx-padding: 10px;
+    -fx-pref-width: 100em;
+}
+
+.nav-item {
+    -fx-alignment: center;
+    -fx-spacing: 5px;
+}
+
+.nav-item Label {
+    -fx-text-fill: #555;
+    -fx-font-size: 12px;
+}
+
+.nav-item:hover Label {
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+}
+<<<<<<< HEAD
+=======
+.navbar {
+    -fx-background-color: #D3D3D3;
+    -fx-padding: 10px;
+    -fx-pref-width: 100em;
+}
+
+/* Modifier la couleur du texte pour qu'il soit plus visible sur fond bleu */
+.nav-item Label {
+    -fx-text-fill: white;
+    -fx-font-size: 12px;
+}
+
+.nav-item:hover Label {
+    -fx-text-fill: #e0e0e0;
+    -fx-font-weight: bold;
+}
+>>>>>>> e4e9b39 (hello)
